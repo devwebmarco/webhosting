@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ==== Document Title ==== -->
+    <title>Build Your Own Website | UTD WebHosting</title>
+    
+    <!-- ==== Document Meta ==== -->
+    <meta name="author" content="">
+    <meta name="description" content="Choose from the worlds most popular CMS website builder tools to create your own online business. Magento, Zen Cart, Open Real Estate, Drupal, Joomla and PrestaShop">
+    <meta name="keywords" content="ecommerce website, what is ecommerce website, what is ecommerce business, how to start an ecommerce business, how to make ecommerce website">
+
+    <!-- ==== Favicons ==== -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- ==== Google Font ==== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,900%7CLato:300,400i,900%7CRaleway:100,300,300i,400,500,500i,600,700">
+
+    <!-- ==== Font Awesome ==== -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    <!-- ==== Bootstrap Framework ==== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- ==== jQuery UI Plugin ==== -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    
+    <!-- ==== Bar Rating Plugin ==== -->
+    <link rel="stylesheet" href="css/fontawesome-stars-o.min.css">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+    <!-- ==== Theme Color Stylesheet ==== -->
+    <link rel="stylesheet" href="css/colors/theme-color-9.css" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="preloader--spinners">
+            <span class="preloader--spinner"></span>
+            <span class="preloader--spinner"></span>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <header class="header--section">
+            <!-- Header Topbar Start -->
+            <div class="header--topbar">
+                <div class="container">
+                    <!-- Header Topbar Social Start -->
+                    <ul class="nav social float--left hidden-xs">
+                         <li><a href="https://www.facebook.com/marco.allcode/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/marcogianni2018"><i class="fa fa-twitter" target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_sign-in-submit" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.pinterest.com.au/utdwebhosting/" target="_blank"><i class="fa fa-pinterest"></i></a></li>     
+                    </ul>
+                    <!-- Header Topbar Social End -->
+
+                    <!-- Header Topbar Button Start -->
+                   <ul class="nav button float--right">
+					<li><a href="#loginForm" class="btn btn-sm btn-primary" data-toggle="modal">Login</a></li>								   
+					</ul>
+                    <!-- Header Topbar Button End -->
+
+                    <!-- Header Topbar Links Start -->
+                    <ul class="nav links float--right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="text-c--main mr--8 fa fa-globe"></i><span class="caret"></span>
+                            </a>                           
+                        </li>
+                        <li>
+                            <a href="mailto:admin@utdwebhosting.com">
+                                <i class="text-c--main mr--8 fa fa-envelope-o"></i><span>Support</span>
+                            </a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="tel:">
+                                <i class="text-c--main mr--8 fa fa-volume-control-phone"></i><span></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Header Topbar Links End -->
+                </div>
+            </div>
+            <!-- Header Topbar End -->
+
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar" data-trigger="sticky">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <!-- Logo Start -->
+                        <a href="index.html" class="navbar-brand">
+                            <img src="img/utdenlogo.png" alt="utdwebhosting">
+                        </a>
+                        <!-- Logo End -->
+                    </div>
+
+                    <!-- Header Cart Start -->
+                    <div class="header--cart-btn float--right">
+                        <a href="cart.html" class="btn-link"><i class="fa fa-shopping-cart"></i><span>0</span></a>
+                    </div>
+                    <!-- Header Cart End -->
+
+                    <div id="headerNav" class="navbar-collapse collapse float--right">
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links nav">
+						<li class="dropdown">
+                          <li><a href="index.html">Webhosting</a></li>  
+                            <li class="dropdown">
+                               <a href="" class="dropdown-toggle" data-toggle="dropdown">Host Plans</a>
+							    <ul class="dropdown-menu">   
+                                    <li><a href="shared-hosting.html">Shared Hosting</a></li>
+                                    <li><a href="wordpress.html">WordPress Hosting</a></li>
+                                    <li><a href="vps-hosting.html">VPS Hosting</a></li>
+                                   
+                                </ul>
+                            </li>
+                            <li><a href="domain.html">Domains</a></li>
+							<li><a href="wordpress.html">WordPress</a></li> 
+							<li><a href="e-commerce.html">E-commerce</a></li>
+                              <li class="dropdown">
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                                <ul class="dropdown-menu">                             
+                                            <li><a href="services.html">services UTDWebhosing</a></li>               
+                                            <li><a href="about.html">About UTDWebhosting</a></li>
+                                            <li><a href="datacenter.html">Datacenter</a></li>                                       
+                                    </li>     
+                                   
+                                        <ul class="dropdown-menu">
+                                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                                            <li><a href="404.html">404</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                                
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Page Header Section Start -->
+        <section class="page--header--section pt--130 pb--150 bg--overlay" data-bg-img="img/features-img/bg.jpg">
+            <div class="container">
+                
+                <!-- Page Header Title Start -->
+                <div class="page--header-title text-uppercase text-center">
+                    <h2 class="h1">Creating an online store ?</h2>
+					<h2 class="h2"><strong>Choose from the most popular software</strong></h2>
+					<div class="desc">
+                    <p></p>
+                   </div>
+                </div>
+                <!-- Page Header Title End -->
+            </div>
+        </section>
+        <!-- Page Header Section End -->
+		
+		<!-- Clients Section Start -->
+        <section class="clients--section pt--70 pb--50">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--50 text-center">
+                    <h2 class="h1 text-uppercase">We Work With</h2>
+
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row" data-scroll-reveal="group">
+                    <div class="col-md-3 col-xs-6 col-xss-12 pb--30">
+                        <!-- Client Brand Start -->
+                        <div class="client--brand">
+                            <img src="img/client-img/client-brand-01.png" alt="client-brand-01">
+                        </div>
+                        <!-- Client Brand End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xss-12 pb--30">
+                        <!-- Client Brand Start -->
+                        <div class="client--brand">
+                            <img src="img/client-img/client-brand-02.png" alt="client-brand-02">
+                        </div>
+                        <!-- Client Brand End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xss-12 pb--30">
+                        <!-- Client Brand Start -->
+                        <div class="client--brand">
+                            <img src="img/client-img/client-brand-03.png" alt="client-brand-03">
+                        </div>
+                        <!-- Client Brand End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xss-12 pb--30">
+                        <!-- Client Brand Start -->
+                        <div class="client--brand">
+                            <img src="img/client-img/client-brand-04.png" alt="client-brand-04">
+                        </div>
+                        <!-- Client Brand End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xss-12 pb--30">
+                        <!-- Client Brand Start -->
+                        <div class="client--brand">
+                            <img src="img/client-img/client-brand-05.png" alt="client-brand-05">
+                        </div>
+                        <!-- Client Brand End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xss-12 pb--30">
+                        <!-- Client Brand Start -->
+                        <div class="client--brand">
+                            <img src="img/client-img/client-brand-06.png" alt="client-brand-06">
+                        </div>
+                        <!-- Client Brand End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xss-12 pb--30">
+                        <!-- Client Brand Start -->
+                        <div class="client--brand">
+                            <img src="img/client-img/client-brand-07.png" alt="client-brand-07">
+                        </div>
+                        <!-- Client Brand End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xss-12 pb--30">
+                        <!-- Client Brand Start -->
+                        <div class="client--brand">
+                            <img src="img/client-img/client-brand-08.png" alt="client-brand-08">
+                        </div>
+                        <!-- Client Brand End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients Section End -->
+
+        <!-- Services Section Start -->
+        <section class="services--section pt--80 pb--20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 pb--60">
+                        <!-- Sidebar Start -->
+                        <div class="sidebar">
+                            <!-- Widget Start -->
+                            <div class="widget">
+                                <!-- Tab Nav Widget Start -->
+                                <div class="tab-nav--widget">
+                                    <ul class="nav">
+                                        <li class="active">
+                                            <a href="#serviceDetailsTab01" data-toggle="tab">
+                                                <span class="icon">
+                                                    <img src="img/services-img/tab-nav-01-normal.png" alt="tab-nav-01-normal">
+                                                    <img src="img/services-img/tab-nav-01-hover.png" alt="tab-nav-01-hover">
+                                                </span>
+
+                                                <span>Magento</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#serviceDetailsTab02" data-toggle="tab">
+                                                <span class="icon">
+                                                    <img src="img/services-img/tab-nav-02-normal.png" alt="tab-nav-02-normal">
+                                                    <img src="img/services-img/tab-nav-02-hover.png" alt="tab-nav-02-hover">
+                                                </span>
+
+                                                <span>Joomla</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#serviceDetailsTab03" data-toggle="tab">
+                                                <span class="icon">
+                                                    <img src="img/services-img/tab-nav-03-normal.png" alt="tab-nav-03-normal">
+                                                    <img src="img/services-img/tab-nav-03-hover.png" alt="tab-nav-03-hover">
+                                                </span>
+
+                                                <span>Drupal</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#serviceDetailsTab04" data-toggle="tab">
+                                                <span class="icon">
+                                                    <img src="img/services-img/tab-nav-04-normal.png" alt="tab-nav-04-normal">
+                                                    <img src="img/services-img/tab-nav-04-hover.png" alt="tab-nav-04-hover">
+                                                </span>
+
+                                                <span>Zencart</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#serviceDetailsTab05" data-toggle="tab">
+                                                <span class="icon">
+                                                    <img src="img/services-img/tab-nav-05-normal.png" alt="tab-nav-05-normal">
+                                                    <img src="img/services-img/tab-nav-05-hover.png" alt="tab-nav-05-hover">
+                                                </span>
+
+                                                <span>Prestashop</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#serviceDetailsTab06" data-toggle="tab">
+                                                <span class="icon">
+                                                    <img src="img/services-img/tab-nav-06-normal.png" alt="tab-nav-06-normal">
+                                                    <img src="img/services-img/tab-nav-06-hover.png" alt="tab-nav-06-hover">
+                                                </span>
+
+                                                <span>Open Real Estate</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Tab Nav Widget End -->
+                            </div>
+                            <!-- Widget End -->
+                        </div>
+                        <!-- Sidebar End -->
+                    </div>
+
+                    <div class="col-md-9 pb--60">
+                        <!-- Tab Content Start -->
+                        <div class="tab-content">
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade in active" id="serviceDetailsTab01">
+                                <!-- Services Content Start -->
+                                <div class="services--content">
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-02.jpg" alt="service-details-02">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p></p>
+
+                                        <p>Magento e-commerce development platform is feature-rich, which means that merchants can access a range of tools and built-in features to build an impressive interface for their business. From catalog management to marketing, SEO, security and more, this platform has features that cover the entire aspects of online selling and ensure that the store delivers an exceptional shopping experience.</p>
+
+                                        <blockquote>
+                                            <p>Whether you are new to the e-commerce domain or simply want to give your existing online store a makeover, the choice of the right development platform matters the most. Magento e-commerce development is the best alternative if you want a store that is feature-rich, secure, and high-performance.</p>
+                                        </blockquote>
+
+                                        <p>When you opt for Magento development, you get an inbuilt CMS for landing pages. This facilitates great ease for the website management process. Further, features such as support for multiple languages and currencies, CAPTCHA for user authentication, customizable template based designs, and tax calculations based on different factors have you covered on all fronts.</p>
+										
+										<p>Magento serves a range of powerful marketing and promotional tools as well. From generating unique coupon codes with offline sharing capabilities to up-selling and cross-selling, providing detailed coupon sharing reports, quantity discount for multi-tier selling, and more, there is much that you can do with this amazing platform.</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-02.jpg" alt="service-details-02">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>This platform facilitates the shipping and checkout functions as well, both of which are essential for running an e-commerce store efficiently. You can avail features like single page checkout, payment gateway integration, Secure Socket Layer (SSL) support for orders, shipping module integration with complete order dispatch details, and more.</p>
+
+                                        <ul>
+                                            <li>Website Management</li>
+                                            <li>Catalog Management</li>
+                                            <li>Order Management</li>
+											<li>Marketing & Promotional Tools</li>
+											<li>Search Engine Optimization Tools</li>
+											<li>Shipping & Checkout</li>
+                                        </ul>
+
+                                        <p>With Magento, you can access SEO tools such as integrated Google Site Map, SEO friendly URLs, search engine compatibility, rewrite and redirect search results, moderated reviews and product tags, auto-generated search terms based on popularity, auto-generated site map on websites, multiple customer sorting attributes, and more.</p>
+                                    </div>									
+                                </div>
+								<div class="action">
+                                                
+                                                <a href="shared-hosting.html" class="btn btn-lg btn-primary">Share Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+												<a href="vps-hosting.html" class="btn btn-lg btn-primary">VPS Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+                                            </div>
+                                <!-- Services Content End -->
+								 </div>
+                            <!-- Tab Pane End -->
+												
+                           
+
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade" id="serviceDetailsTab02">
+                                <!-- Services Content Start -->
+                                <div class="services--content">
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-03.png" alt="service-details-03">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>START YOUR BUSINESS AND GROW WITH JOOMLA. Joomla is the ideal e-commerce tool to help you professionally design your website and grow your own e-shop. No coding experience required</p>
+
+                                        <p>Ecommerce is on the raise with the growing potentials of digital selling, Simultaneously the number of Joomla eCommerce extensions have overwhelmed the market. In this competitive circumstance sometimes it becomes difficult and challenging for developers to find an appropriate eCommerce extension for their websites.</p>
+
+                                        <blockquote>
+                                            <p>Joomla! is one of world's most popular software packages. It is used to build, organise, manage and publish content for small businesses, governments, non-profits and large organisations worldwide. Joomla is supported by a large ecosystem and powers.</p>
+                                        </blockquote>
+
+                                        <p>Joomla offers a great opportunity to grow your business building websites and applications. The rock solid code base and large global community will help you get up to speed fast. Whether you are looking to build websites or develop applications, develop templates or extensions or something completely new based on our framework, with Joomla, the possibilities are endless, start using Joomla today!</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-03.png" alt="service-details-03">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>There are also thousands of high quality templates available, a great number of which are free. Paid templates are also available and come with world class support. Many templates provide a graphical user interface (GUI) which allow you to change colours, fonts, layouts and features without touching a line of code!</p>
+
+                                        <ul>
+                                            <li>Nearly 2 Millions active websites</li>
+                                            <li>Over 9% of all known business websites</li>
+                                            <li>Over 6% of the CMS Market World wide</li>
+											<li>Over 3% of the entire Web!</li>
+                                        </ul>
+
+                                        <p>You get the benefit of thousands of hours of development time and expertise from programmers around the world free for you to use. Being free and open source also means that if you need to change webmasters, many others are available without having to rebuild your site!</p>
+                                    </div>
+                                </div>
+                                <!-- Services Content End -->
+								<div class="action">
+                                                
+                                                <a href="shared-hosting.html" class="btn btn-lg btn-primary">Share Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+												<a href="vps-hosting.html" class="btn btn-lg btn-primary">VPS Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+                                            </div>
+                            </div>
+                            <!-- Tab Pane End -->
+
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade" id="serviceDetailsTab03">
+                                <!-- Services Content Start -->
+                                <div class="services--content">
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-04.jpg" alt="service-details-04">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>Drupal is a fully featured content management system that can be infinitely enhanced through the installation of contributed modules or by customised development. We have listed the key features - either in core or through contributed modules - that make Drupal the multi award winning CMS that it is.</p>
+
+                                        <p>Granular User Management: Drupal allows total control of user role definitions and permissions for access to different functions within your website. Multiple Content Types: Drupal provides complete flexibility over defining how different content types (e.g. articles, blog posts, news stories) appear and the functionality associated with each content type, such as allowing or disallowing user comments.</p>
+
+                                        <blockquote>
+                                            <p>Platform, Web Server and Database Independent: While the standard install configuration is on Linux, Apache and MySQL or PostgreSQL, Drupal can also be installed on Windows servers running IIS and Microsoft SQL Server, Solaris, BSD or Mac OS X if there's a requirement to do so.</p>
+                                        </blockquote>
+
+                                        <p>Device-Specific Display: If your website needs to be optimised for mobile or other devices, Drupal can detect the browser being used and serve a specific display theme for that device. Highly Tuned Search Engine Optimisation (SEO): A Drupal website will be optimally tuned for search engines through the provision of natural language URLs, permanent links to content, customisable page metadata and an automatically generated XML sitemap.</p>
+										
+										<p>Tracking and Statistics: By default, Drupal contains its own user tracking and statistics, but can be easily integrated with third party reporting tools such as Google Analytics. Content Administration: A range of core and contributed modules provides a very high degree of editorial workflow and management depending on the size of the organisation and amount of content being managed.</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-05.jpg" alt="service-details-05">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>Online Community Features: Drupal installs with forums, commenting, polls, blogging, RSS feed aggregation and rich user profiles by default, while a range of modules and custom development can facilitate any imaginable form of user generated content or interaction on par with the Facebooks, YouTubes and Flickrs of the world.</p>
+
+                                        <ul>
+                                            <li>Content Administration</li>
+                                            <li>WYSIWYG Content Editing</li>
+                                            <li>In-built Search</li>
+                                        </ul>
+
+                                        <p>Standards Compliant Templating & Theming: Drupal separates all content from the presentation layer, allowing you to fully customise the design and layout of your website using standards compliant HTML and CSS. A large number of high quality, pre-built themes are available that may help fast-track the design of your project instead of starting from scratch and investing in a fully customised website design.</p>
+                                    </div>
+                                </div>
+                                <!-- Services Content End -->
+								<div class="action">
+                                                
+                                                <a href="shared-hosting.html" class="btn btn-lg btn-primary">Share Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+												<a href="vps-hosting.html" class="btn btn-lg btn-primary">VPS Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+                                            </div>
+                            </div>
+                            <!-- Tab Pane End -->
+
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade" id="serviceDetailsTab04">
+                                <!-- Services Content Start -->
+                                <div class="services--content">
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-06.jpg" alt="service-details-06">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>Zen Cart has a very easy installation and upgradation system. Its native web-based installer checks the database and server requirements before proceeding to install Zen Cart. It guides you systematically through installation of the store. Each step is well-documented, guiding you through online help tips with a ready to help community of Zen Cart users. The installation tool prepopulates the basic store information, which helps you to quickly set up the shop. From the installation tool, you can also populate optional demo products to explore Zen Cart's features.</p>
+
+                                        <p>Zen Cart has some useful features for localization. It supports multiple languages, multiple currencies, multiple payment methods, shipping methods, and multiple tax rates for different tax regions. Some of the language packs, including Arabic, Spanish, Dutch, French, German, and Polish are readily available from Zen Cart website's download section. You can also add new languages and translate the interface into your desired language.</p>
+
+                                        <blockquote>
+                                            <p>Zen Cart is built for entrepreneurs, by entrepreneurs. Zen cart developers claim that the program is built by programmers and designers who understand the online selling process from start to finish. Existing users of Zen Cart know that it contains all of the necessary tools required to build a successful online store. Zen Cart is also being constantly improved and upgraded based on users' requirements.</p>
+                                        </blockquote>
+
+                                        <p>Zen Cart has excellent features both for customers and shop administrators, especially in managing customers and products. In a normal Zen Cart shop, customers can browse the products, view the details, and register themselves to order a product. Once registered with Zen Cart shop, customer information is stored in the database. Then, they can log in to Zen Cart shop each time they visit your store. Customers can maintain up to five shipping and billing addresses, which can be used when they shop. They can also subscribe to newsletters and product notifications of their choice and manage these subscriptions from the account details page. The administrator of the shop can allow customer unrestricted shopping. You can also make registration mandatory for customers to see the prices of the products.</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-07.jpg" alt="service-details-07">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>In Zen Cart, there is no limit to how big the catalog can be. You can build your catalog with thousands of products and keep the products in categories. Zen Cart allows you to create unlimited nested categories. You also have the ability to copy, move, or link a product to another category. Your catalog may contain both—physical merchandise and downloadable virtual products. You can assign attributes to products, and price the products according to these attributes. Product options can be shown as drop-downs, option buttons, checkboxes, and text inputs. Products can also be marked as "Free" or "Call for Price". A product marked "Free" does not require the buyers to pay for it. However, shipping charges may apply to it.</p>
+
+                                        <ul>
+                                            <li>Allows customers to shop your store 24 hours a day, 7 days a week, 365 days a year.</li>
+                                            <li>Easily keep your products/catalog updated - no HTML coding required to add, delete, or modify products.</li>
+                                            <li>Works on the popular combination of PHP and MySQL technologies.</li>
+                                        </ul>
+
+                                        <p>Zen Cart has many customer retention tools that allows the store owner to communicate with the customers. Zen Cart maintains a customer-base from where the administrator can contact any customer through email. The store owner can notify customers about new products, promotions, discounts, and many other things. The store owner can send order status emails whenever the status of an order is changed. This allows the customers to be informed about their orders.</p>
+                                    </div>
+                                </div>
+                                <!-- Services Content End -->
+								<div class="action">
+                                                
+                                                <a href="shared-hosting.html" class="btn btn-lg btn-primary">Share Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+												<a href="vps-hosting.html" class="btn btn-lg btn-primary">VPS Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+                                            </div>
+                            </div>
+                            <!-- Tab Pane End -->
+
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade" id="serviceDetailsTab05">
+                                <!-- Services Content Start -->
+                                <div class="services--content">
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-08.jpg" alt="service-details-08">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>POWERFUL CATALOG AND SITE MANAGEMENT At the Prestashop Backend, people manage a dynamic product list. Whether your shop contain one product or thousands, this in an incredible administrative interface. People can also manage the most complex inventory easily with one-click updates. Import and export quickly, set attributes, sort products, apply bulk discounts, and much more. </p>
+
+                                        <p> DISPLAY PRODUCT YOUR WAY At the Frontend, you can display products in a unique way and provide customers with numerous options to view their desired products. Providing multiple views will boost conversion rates. Merchants can reduce customer doubt by putting them at ease with zoom in features and multiple product views.</p>
+
+                                        <blockquote>
+                                            <p>PrestaShop is one of the most popular solutions in the e-commerce community. People use it for their own store, Prestashop is open source, supports payment gateways and you can also extend its functionality with Prestashop Modules. </p>
+                                        </blockquote>
+
+                                        <p>One of the best forms of marketing is search engine optimization marketing. Optimize your site to ensure major search engines are indexing the store. Simply through choosing the most in demand keywords on site tags, a store can be seen on the first page of Google! Discover limitless possibilities with increased online traffic. This tool will help your site become more and more popular.</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-08.jpg" alt="service-details-08">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>You can customize institutions to gather specific information. From design to shipping, PrestaShop checkout process makes it easy for customers to buy. Using the checkout page effectively will push your conversion rates higher! PrestaShop offers a one-page checkout among other features.</p>
+
+                                        <ul>
+                                            <li>User friendly website</li>
+                                            <li>Efficient content management</li>
+                                            <li>Display unlimited products</li>
+                                        </ul>
+
+                                        <p>PrestaShop also offers a variety of marketing and promotional tools built in. A successful merchant is the key to PrestaShop’s growth and guaranteeing effective marketing tools will build a path for online success. The key to helping your customers find your store easily.</p>
+                                    </div>
+                                </div>
+                                <!-- Services Content End -->
+								<div class="action">
+                                               
+                                                <a href="shared-hosting.html" class="btn btn-lg btn-primary">Share Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+												<a href="vps-hosting.html" class="btn btn-lg btn-primary">VPS Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+                                            </div>
+                            </div>
+                            <!-- Tab Pane End -->
+
+                            <!-- Tab Pane Start -->
+                            <div class="tab-pane fade" id="serviceDetailsTab06">
+                                <!-- Services Content Start -->
+                                <div class="services--content">
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-09.jpg" alt="service-details-09">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>Online consultant They say that chat tabs in a website only irritate users, however, useful requests usually significantly outnumber discontented visitors. Online consulting services usually give you a lot of opportunities up to the payment straight in the chat tab. You can easily choose a convenient software for you with all the necessary features. Invoke your customers to communicate in a chat and show them your willingness to guide them on all their questions.</p>
+
+                                        <p> Feedback Real users’ feedback increase the audience trust to the company. It is better to ask visitors to leave detailed testimonials about an agency’s services and objects with the description of their pros and cons. Some companies leave only 100% positive feedback and delete negative ones. You should not deal with negative comments like this, it is better to give an expanded answer and try to solve the customer’s problem. The presence of negative feedback can also become a reason for choosing you.</p>
+
+                                        <blockquote>
+                                            <p>Open Real Estate is a free script for building a website containing information about buying, renting, selling or changing of realty (apartments, houses, land property etc). This product can be used for creating a web platform for your business as well as for developing your own business from the ground up.</p>
+                                        </blockquote>
+
+                                        <p>Point out the advantages Visually underline the benefits the clients get while choosing you. Bulleted lists, icons, frames, background color and others will help you to attract the clients’ attention to the special offer.</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/services-img/service-details-09.jpg" alt="service-details-09">
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>Special offers and discounts Discounts always work. Due to a small decrease of the price you increase sales, as you enlarge the number of customers, who will be able to afford your service. This method will be one of the arguments for you.</p>
+
+                                        <ul>
+                                            <li>ability to add listings of property for sale and for rent in different currencies</li>
+                                            <li>online property booking</li>
+                                            <li>easy search through all listings</li>
+                                        </ul>
+
+                                        <p>Attractive headlines David Ogilvy noticed that headlines are read 5 times more often than the rest text in a page. To attract a client’s attention and make them do a a target action, the headline must contain a particular benefit, for example, appealing price or convenient service.</p>
+                                    </div>
+                                </div>
+                                <!-- Services Content End -->
+								<div class="action">
+                                               
+                                                <a href="shared-hosting.html" class="btn btn-lg btn-primary">Share Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+												<a href="vps-hosting.html" class="btn btn-lg btn-primary">VPS Hosting<i class="ml--8 fa fa-check-circle"></i></a>
+                                            </div>
+                            </div>
+                            <!-- Tab Pane End -->
+                        </div>
+                        <!-- Tab Content End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section End -->
+		
+		<!-- mibew button --><a id="mibew-agent-button" href="https://utdwebhosting.com/chat/chat?locale=en" target="_blank" onclick="Mibew.Objects.ChatPopups['5eb9c9924799330f'].open();return false;"><img src="https://utdwebhosting.com/chat/b?i=mibew&amp;lang=en" border="0" alt="" /></a><script type="text/javascript" src="https://utdwebhosting.com/chat/js/compiled/chat_popup.js"></script><script type="text/javascript">Mibew.ChatPopup.init({"id":"5eb9c9924799330f","url":"https:\/\/utdwebhosting.com\/chat\/chat?locale=en","preferIFrame":true,"modSecurity":false,"forceSecure":false,"style":"","width":640,"height":480,"resizable":true,"styleLoader":"https:\/\/utdwebhosting.com\/chat\/chat\/style\/popup"});</script><!-- / mibew button -->
+        
+        
+        <!-- Footer Section Start -->
+        <footer class="footer--section" data-bg-img="img/banners-img/footer-widget-bg.jpg">
+            <!-- Footer Widgets Start -->
+            <div class="footer--widgets pt--90 pb--30">
+                <div class="container">
+                    <div class="row AdjustRow">
+                        <div class="col-md-3 col-xs-6 col-xss-12 pb--60">
+                            <!-- Widget Start -->
+                            <div class="widget">
+                                <!-- About Widget Start -->
+                                <div class="about--widget">
+                                    <div class="logo">
+                                        <img src="img/utdenlogo.png" alt="utdwebhosting">
+                                    </div>
+
+                                    <address>
+                                        <p></p>
+                                    </address>
+
+                                    <dl>
+                                        <dt><i class="fa fa-envelope-o"></i>Email</dt>
+                                        <dd>
+                                            <p>
+                                                <span>Sales:</span>
+                                                <a href="mailto:sales@utdwebhosting.com" class="btn-link">sales@utdwebhosting.com</a>
+                                            </p>
+                                            <p>
+                                                <span>Support:</span>
+                                                <a href="mailto:admin@utdwebhosting.com" class="btn-link">admin@utdwebhosting.com</a>
+                                            </p>
+                                        </dd>
+                                    </dl>
+
+                                    <dl>
+                                        <dt><i class="fa fa-cha"></i></dt>
+                                        <dd>
+                                            <p>
+                                                <span></span>
+                                                <a href="tel:" class="btn-link"></a>
+                                            </p>
+                                            <p>
+                                                <span></span>
+                                                <a href="tel:" class="btn-link"></a>
+                                            </p>
+											<p>
+                                                <span>Terms of Service</span>
+                                                <a href="tos.html" class="btn-link">Terms of Service</a>
+                                            </p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <!-- About Widget End -->
+                            </div>
+                            <!-- Widget End -->
+                        </div>
+
+                        <div class="col-md-3 col-xs-6 col-xss-12 pb--60">
+                            <!-- Widget Start -->
+                            <div class="widget">
+                                <h2 class="h4 widget--title text-uppercase">Resources</h2>
+
+                                <!-- Links Widget Start -->
+                                <div class="links--widget">
+                                    <ul class="nav">
+                                        <li><a href="shared-hosting.html">Shared Hosting</a></li>
+                                        <li><a href="coming-soon.html">Developer Hosting</a></li>
+                                        <li><a href="vps-hosting.html">VPS Hosting</a></li>                                        
+                                        <li><a href="wordpress.html">Wordpress Hosting</a></li>
+                                        <li><a href="domain.html">Domain Names</a></li>
+                                        <li><a href="services.html">Services</a></li>                                       
+                                        <li><a href="coming-soon.html">FAQ's</a></li>
+										<li><a href="https://www.joomla.org/" target="_blank">Joomla</a></li>
+										<li><a href="https://magento.com/" target="_blank">Magento</a></li>
+										<li><a href="https://open-real-estate.info/" target="_blank">Open real estate</a></li>
+										<li><a href="https://www.drupal.org/" target="_blank">Drupal</a></li>
+										<li><a href="https://www.prestashop.com/en" target="_blank">PrestaShop</a></li>
+										<li><a href="https://www.zen-cart.com/" target="_blank">Zencart</a></li>
+										<li><a href="https://searchnetworking.techtarget.com/definition/bandwidth" target="_blank">Bandwidth</a></li>		
+										<li><a href="https://searchstorage.techtarget.com/definition/SSD-solid-state-drive" target="_blank">SSD's</a></li>
+										<li><a href="https://www.techradar.com/news/best-domain-registrars-in-2019" target="_blank">Domains</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Links Widget End -->
+                            </div>
+                            <!-- Widget End -->
+                        </div>
+
+                        <div class="col-md-3 col-xs-6 col-xss-12 pb--60">
+                            <!-- Widget Start -->
+                            <div class="widget">
+                                <h2 class="h4 widget--title text-uppercase">utdwebhosting</h2>
+
+                                <!-- Links Widget Start -->
+                                <div class="links--widget">
+                                    <ul class="nav">
+                                        <li><a href="">Chat Support</a></li>
+                                        <li><a href="mailto:admin@utdwebhosting.com">Email</a></li>                                        
+                                        <li><a href="contact.php">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Links Widget End -->
+                            </div>
+                            <!-- Widget End -->
+                        </div>
+
+                        <div class="col-md-3 col-xs-6 col-xss-12 pb--60">
+                            <!-- Widget Start -->
+                            <div class="widget">
+                                <h2 class="h4 widget--title text-uppercase">NewsLetter</h2>
+
+                                <!-- Newsletter Widget Start -->
+                                <div class="newsletter--widget">
+                                    <div class="desc">
+                                        <p>Sign-up to our newsletter to receive promotions on products with utdwebhosting.</p>
+                                    </div>
+
+                                    <form action="mailto:admin@utdwebhosting.com" method="post" name="mc-embedded-subscribe-form" target="_blank" data-form="validate">
+                                        <input type="text" name="EMAIL" placeholder="Email" class="form-control" required>
+
+                                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                                    </form>
+                                </div>
+                                <!-- Newsletter Widget End -->
+                            </div>
+                            <!-- Widget End -->
+
+                            <!-- Widget Start -->
+                            <div class="widget">
+                                <h2 class="h4 widget--title text-uppercase">Payment Methods</h2>
+
+                                <!-- Image Widget Start -->
+                                <div class="img---widget">
+                                    <img src="img/banners-img/payment-methods.png" alt="payment-methods">
+                                </div>
+                                <!-- Image Widget End -->
+                            </div>
+                            <!-- Widget End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widgets End -->
+						
+			
+			<!-- Footer Copyright Start -->
+            <div class="footer--copyright pt--30 pb--30">
+                <div class="container">
+                    <ul class="social nav">
+                        <li><a href="https://www.facebook.com/marco.allcode/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/marcogianni2018"><i class="fa fa-twitter" target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_sign-in-submit" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.pinterest.com.au/utdwebhosting/" target="_blank"><i class="fa fa-pinterest"></i></a></li>                    
+                    </ul>
+
+                    <p class="copyright--text">Copyright 2019 &copy; <a href="#">UTDWebhosting</a>. All Rights Reserved.</p>
+                </div>
+            </div>
+            <!-- Footer Copyright End -->
+        </footer>
+        <!-- Footer Section End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- Login Form Start -->
+    <div id="loginForm" class="login--form modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+
+                <div class="modal-body">
+                    <div class="title">
+                        <h2 class="h4">Login</h2>
+                    </div>
+
+                    <form action="https://www.utdwebhosting.com/whmc/dologin.php" data-form="validate">
+                        <div class="form-group">
+                            <input type="email" name="username" placeholder="Your Email" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" name="password" placeholder="Password" class="form-control" required>
+                        </div>
+
+                        <input type="hidden" name="systpl" value="utdwebhosting">
+
+                        <p class="help-block"><a href="https://utdwebhosting.com/whmc/index.php?rp=/password/reset/begin">Forgot Your Password?</a></p>
+
+                        <button type="submit" class="btn btn-block btn-default text-uppercase">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Form End -->
+  
+
+    <!-- Back To Top Button Start -->
+    <div id="backToTop">
+        <a href="#" class="btn btn-lg btn-default active"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Back To Top Button End -->
+
+    <!-- ==== jQuery Library ==== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- ==== jQuery UI ==== -->
+    <script src="js/jquery-ui.min.js"></script>
+
+    <!-- ==== jQuery UI Touch Punch ==== -->
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+
+    <!-- ==== Bootstrap Framework ==== -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ==== StickyJS Plugin ==== -->
+    <script src="js/jquery.sticky.min.js"></script>
+
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- ==== Waypoints Plugin ==== -->
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <!-- ==== Counter-Up Plugin ==== -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- ==== Counter Down Plugin ==== -->
+    <script src="js/jquery.countdown.min.js"></script>
+
+    <!-- ==== Validation Plugin ==== -->
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!-- ==== Isotope Plugin ==== -->
+    <script src="js/isotope.min.js"></script>
+
+    <!-- ==== Zoom Plugin ==== -->
+    <script src="js/jquery.zoom.min.js"></script>
+
+    <!-- ==== Bar Rating Plugin ==== -->
+    <script src="js/jquery.barrating.min.js"></script>
+
+    <!-- ==== Scroll Reveal Plugin ==== -->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!-- ==== RetinaJS Plugin ==== -->
+    <script src="js/retina.min.js"></script>
+
+    <!-- ==== Main JavaScript ==== -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
